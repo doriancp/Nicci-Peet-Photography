@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+  height: 100%;
+  background: #F9FCFF;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+
+.about_hypens {
+  text-decoration: underline;
+}
+
+/* Header CSS */
+header {
+    width: 145px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: black;
+  font-family: Montserrat;
+  font-size: 290%;
+  text-align: left;
+  text-justify: inter-word;
+  margin: 12px 0px 12px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  width: 50%;
+  margin: 20px 0px 20px 21px;
+}
+
+.links { 
+  font-size: 180%;
+  text-align: left;
+}
+
+h2 {
+  margin: 0px;
+}
+
+/* Contact/About Grid */
+.contact_about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  margin: 35px 30px 0px 230px;
+}
+
+/* About Section */
+.about_section {
+  text-align: left;
+  padding: 20px 30px 30px 30px ;
+  background-color: #f9fcff;
+  border: 2px solid black;
+}
+/* Contact Form */
+.container {
+  background-color: #f9fcff;
+  border: 2px solid black;
+  padding: 20px 30px 30px 30px;
+} 
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 6.5px;
+    margin-bottom: 40px;
+    resize: vertical
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 200px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #ebf1ff;
+  }
+
+  

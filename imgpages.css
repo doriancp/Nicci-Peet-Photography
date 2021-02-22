@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+  height: 100%;
+  background: #F9FCFF;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+/* Header CSS */
+
+header {
+    width: 145px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: black;
+  font-family: Montserrat;
+  font-size: 290%;
+  text-align: left;
+  text-justify: inter-word;
+  margin: 12px 0px 12px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  width: 50%;
+  margin: 20px 0px 20px 21px;
+}
+
+.links { 
+  font-size: 180%;
+  text-align: left;
+}
+   
+
+/* 2nd Attempt Images */
+
+.drinks_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0px 0px 230px;
+}
+
+.drinks_pics {
+    width: 21vw;
+    height: 24vw;
+    padding: 2px;
+    object-fit: cover;
+}
+
+
+/* Object Fit Position Adjustments */
+
+/* Drinks */
+#olivecock{
+    object-position: 0% 90%;
+}
+#beerflowers{
+    object-position: 0% 0%;
+}
+#orangecock {
+    object-position: 0% 15%;
+}
+
+/* Events */
+#womantalk{
+    object-position: 42% 0%;
+}
+#beertray{
+    object-position: 20% 0%;
+}
+
+/* Products */
+#campervanbig {
+    object-position: 0% 88%;
+}
+#wiperandtrue{
+    object-position: 0% 80%;
+}
+#lghat{
+    object-position: 0% 40%;
+}
+#filthy1{
+    object-position: 0% 27%;
+}
+#lgtshirt{
+    object-position: 0% 80%;
+}
+#campervan3{
+    object-position: 48% 0%;
+}
+#lgbeerpour{
+    object-position: 0% 70%;
+}
+/* Brewing */
+#canningmachine{
+    object-position: 23% 0%;
+}
+
+/* Projects */
+#womantrojan{
+    object-position: 0% 70%;
+}
+#womanshirt{
+    object-position: 0% 80%;
+}
+#womanbarrel{
+    object-position: 70% 0%;
+}
+#womangarage{
+    object-position: 87% 0%;
+}
+#womanwall{
+    object-position: 90% 0%;
+}
+#womanbeer{
+    object-position: 63% 0%;
+}
+#womandog{
+    object-position: 85% 0%;
+}
+
+/* Failed 1st Attampt
+
+.slide_container {
+    width: 600px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img_container {
+    width: 2400px;
+    height: 800px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+
+}
+
+.slider_image {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    width: 600px;
+    height: 900px;
+    
+}
+
+.button_container {
+    top: -20px;
+    position: relative;
+}
+
+.slider_button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#slider_image_1:target ~ .img_container{
+    left: 0px;
+} 
+#slider_image_2:target ~ .img_container{
+    left: -600px;
+}
+#slider_image_3:target ~ .img_container{
+    left: -1200px;
+}
+#slider_image_4:target ~ .img_container{
+    left: -1800px;
+}
+
+ */
